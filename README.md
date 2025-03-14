@@ -1,70 +1,76 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Big Oh! 🚀
 
-## Available Scripts
+<p align="center">
+  <img src="proj_pic.jpeg" alt="Big Oh! Logo" width="300" />
+</p>
 
-In the project directory, you can run:
+## What is Big Oh! Project? 🤔
 
-### `npm start`
+**Big Oh!** is a groundbreaking tool designed to unlock the hidden insights of your code. Upload one or multiple code files, and watch as Big Oh! creates a **dynamic knowledge graph** that represents every package, function, and module as a **node**. This visual breakdown makes it easy to understand the complexity of your code and spot opportunities for optimization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How is it Useful? 💡
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Imagine having a **smart assistant** that dissects your project into its essential components and reveals how they interconnect. **Big Oh!** helps you to:
 
-### `npm test`
+- **Visualize** your code structure with clarity.
+- **Identify** bottlenecks and complexity hotspots.
+- **Optimize** and refactor with confidence.
+- **Generate** detailed reports for better collaboration.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It’s like having a **code whisperer** guiding you through your project! 😎
 
-### `npm run build`
+## Who Can Use It? 👩‍💻👨‍💻
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Individual Developers:** Enhance your coding practice with detailed visual analysis.
+- **Development Teams:** Streamline collaboration with clear, shareable reports.
+- **Code Reviewers & Architects:** Dive deep into your project’s architecture.
+- **Students & Educators:** Demystify complex code structures and learn best practices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack Used 🛠️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) **Python** - Powers our code analysis engine.
+- ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) **Flask** - Provides a lightweight and efficient backend.
+- ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) **React** - Delivers a dynamic and responsive UI.
+- ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) **Neo4j** - Manages and stores our knowledge graph data seamlessly.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Create a Neo4j Aura DB
+- Visit [Neo4j Aura](https://aura.neo4j.io/) and sign up.
+- Create a new database and note down your **URI**, **username**, **password**, and **database name**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Obtain Your Hugging Face Token
+- Sign up at [Hugging Face](https://huggingface.co/).
+- Generate a new **API Token** from your profile.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Environment Configuration
+Add the following details to your `.env` file:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```env
+NEO4J_URI = "YOUR_NEO4J_URI"
+NEO4J_USERNAME = "neo4j"
+NEO4J_PASSWORD = "YOUR_NEO4J_PASSWORD"
+NEO4J_DATABASE = "YOUR_DATABASE_NAME"
 
-## Learn More
+HF_TOKEN = "YOUR_HUGGINGFACE_TOKEN"
+HF_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Website Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Below are some example views of the **Big Oh!** web interface:
 
-### Code Splitting
+- **Homepage**
+- **Project List**
+- **Knowledge Graph Visualization**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*(Replace these with your actual screenshots to showcase your project!)*
 
-### Analyzing the Bundle Size
+## 📬 Contact Us
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Author:** I.V. Srichandra  
+**Email:** [ippatapuvenkatasrichandra@gmail.com](mailto:ippatapuvenkatasrichandra@gmail.com)  
+**GitHub:** [GitHub Profile](https://github.com/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Whether you have **feedback**, **ideas for collaboration**, or just want to chat about coding, feel free to reach out anytime! 😃
