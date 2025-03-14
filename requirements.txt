@@ -1,0 +1,12 @@
+# Backend Python Requirements
+Flask==3.0.2
+Werkzeug==3.0.1
+flask-cors==5.0.1
+python-dotenv==1.0.1
+react==19.0.0
+react-dom==19.0.0
+react-router-dom==7.2.0
+axios==1.7.9
+tailwindcss==4.0.8
+postcss==8.5.3
+autoprefixer==10.4.20
